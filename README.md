@@ -1,4 +1,4 @@
-Cursor Rules 0.15 by Jason Jiao
+Cursor Rules 0.16 by Jason Jiao
 ## 默认规则
 进入了项目设计和开发时，请遵守下述规则
 1. 每次对话请中文沟通，所有代码文件的注释和提示默认使用英文，所有mermaid等图形都使用英文标注
