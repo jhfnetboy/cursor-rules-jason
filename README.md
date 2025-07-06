@@ -16,6 +16,7 @@ Cursor Rules 0.16 by Jason Jiao
 5. 每次更新Changes.md，记得更新version，例如0.10.21 -——-》 0.11.22，递增0.01,初始化的version一般是0.1.0, 后面是0.1.1, 0.1.2, 0.1.12, 0.2.1
 6. 如果是新增的功能，能独立模块就不要在原有的主流程文件完成；在我没有明确说明开始0.2.0或者其他版本开发之前，我们都是在完成0.1的开发
 7. 如果解决一个问题，同样思路三次对话后还是失败，请反思，改变思路，尝试其他技术方案，或者拆分为更小的问题来解决
+8. 对于Rust项目，每次完成一个todo，请测试和确认结果符合预期后进行git 提交；git提交之前先运行 scripts/format.sh，禁止使用--no-verify commit！ 必须运行pre commit hook。
 
 ## 整体流程
 输入(Solution) -> 设计(Design)-> 拆解(Features)->计划(Plan)-> 开发迭代(Changes)-> 测试验证(Verify- tests)-> 规范验证(Verify - standards)
