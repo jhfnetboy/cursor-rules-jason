@@ -3,7 +3,7 @@ This file will be include in claude.md, gemini.md and docs directory in project 
 This file create a rule for work flow and rules for all project development.
 本文主要服务于独立的项目开发流程，从属于整体exploaration流程：设计、研究、项目（研发）、社区。
 @ my-explaration/README.md，参考此文档获得全局上下文
-本文存在于任何用于开发为目的的项目目录，包括子项目内，一般是claude.md和gemini.md
+本文存在于任何用于开发为目的的项目目录，包括子项目内，一般是claude.md和gemini.md，产出的文档一般在项目目录下的docs目录。
 
 ## 目录结构
 
@@ -27,7 +27,7 @@ This file create a rule for work flow and rules for all project development.
 7. 所有文档开头是创建时间，修改时间（多条历史），版本号，持续维护
 
 ### 工作方式
-1. 按四个阶段，检查文档是否齐全，从Solution开始，如果没有，则按模板进行交互式提问，收集足够信息，如何进行深度思考和研究，依赖模板，但不局限于模板，产出一个针对问题的清晰描述和解决方案的核心阐述。
+1. 按四个阶段，检查文档是否齐全，从Solution开始，如果没有，则按模板进行交互式提问，收集足够信息，进行深度思考和研究后建立文档，依赖模板，但不局限于模板，产出一个针对问题的清晰描述和解决方案的核心阐述。
 2. 其他文档类似，依赖模板，不局限于模板，交互收集信息，产出对应文档
 3. 从prd到tasks，需要调用taskmaster工具，参考readme文档说明，子任务文档没有模板，依赖taskmaster提供标准
 4. 然后开始完成子任务
